@@ -1,9 +1,28 @@
-# 小满的前端学习仓库
+# Glassbuckle
 
-欢迎来到我的个人前端开发学习仓库！  
-这个仓库记录了我在前端技术方向的学习过程、实战练习与项目成果，展示了我逐步成长为一名 Web 开发者的轨迹。
+A compact archive of front-end experiments and small web applications built with HTML, CSS, and JavaScript.
 
-## 🧑‍💻 关于我
+## Included projects
 
-我是一名正在学习中的开发者，热爱前端设计与交互开发，正在系统掌握 HTML、CSS、JavaScript 等核心技术，并逐步探索 Vue 等现代前端框架。本仓库旨在展示我的动手能力与学习进展。
+- **TodoList** — a lightweight interactive task list.
+- **RandomQuoteGenerator** — a dynamic quote interface with animated presentation.
+- **API / 获取天气** — a small exercise in fetching and presenting weather data.
+- **API / 随机猫图** — an API-driven random image experiment.
+- **SongList** — an interactive song-list interface.
+- **GRZY** — a visual profile and interaction experiment.
 
+## Focus
+
+The repository collects standalone exercises around:
+
+- DOM interaction and event handling
+- asynchronous API requests
+- responsive layout and visual effects
+- small reusable interface behaviors
+- lightweight, framework-free prototypes
+
+Most folders are self-contained and can be opened independently for review or experimentation.
+
+## Notes
+
+This repository is kept as an archive of early front-end work. Individual projects may use different structures and levels of polish, reflecting separate experiments rather than a single production application.

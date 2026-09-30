@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ilyra Web Lab — web experiments, interface studies, and rebuilt front-end projects." />
+  <title>Ilyra Web Lab</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="Ilyra Web Lab home">
+      <span class="brand-mark">I</span>
+      <span>
+        <strong>Ilyra Web Lab</strong>
+        <small>web experiments / rebuilt archive</small>
+      </span>
+    </a>
+    <a class="repo-link" href="https://github.com/IlyraVale/Glassbuckle" target="_blank" rel="noreferrer">
+      GitHub ↗
+    </a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">ARCHIVE → LAB</p>
+      <h1>Old projects,<br /><span>rebuilt with better hands.</span></h1>
+      <p class="hero-copy">
+        A working collection of browser experiments, small utilities, and interface studies.
+        Early projects stay visible; selected pieces are gradually redesigned instead of erased.
+      </p>
+
+      <div class="hero-meta" aria-label="Lab summary">
+        <div><strong>07</strong><span>projects indexed</span></div>
+        <div><strong>HTML / CSS / JS</strong><span>core stack</span></div>
+        <div><strong>2026</strong><span>revamp in progress</span></div>
+      </div>
+    </section>
+
+    <section class="project-section" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2 id="projects-title">Projects</h2>
+        </div>
+        <div class="filters" role="group" aria-label="Filter projects">
+          <button class="filter is-active" data-filter="all">All</button>
+          <button class="filter" data-filter="ui">UI</button>
+          <button class="filter" data-filter="api">API</button>
+          <button class="filter" data-filter="utility">Utility</button>
+          <button class="filter" data-filter="archive">Archive</button>
+        </div>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card featured" data-tags="utility ui">
+          <div class="card-topline"><span>01</span><span>UTILITY / UI</span></div>
+          <h3>TodoList</h3>
+          <p>A compact task interface built around DOM events, local interaction, and simple state handling.</p>
+          <div class="card-footer">
+            <span>HTML · CSS · JS</span>
+            <a href="./TodoList/">Open project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-tags="ui">
+          <div class="card-topline"><span>02</span><span>UI EXPERIMENT</span></div>
+          <h3>Random Quote Generator</h3>
+          <p>A small animated content generator exploring transitions, layout, and lightweight interaction.</p>
+          <div class="card-footer">
+            <span>HTML · CSS · JS</span>
+            <a href="./RandomQuoteGenerator/">Open project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-tags="ui utility">
+          <div class="card-topline"><span>03</span><span>INTERACTIVE PAGE</span></div>
+          <h3>Song List</h3>
+          <p>A visual song-request page with copy interaction, motion, layered backgrounds, and mobile layout.</p>
+          <div class="card-footer">
+            <span>HTML · CSS · JS</span>
+            <a href="./SongList/">Open project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-tags="ui">
+          <div class="card-topline"><span>04</span><span>VISUAL STUDY</span></div>
+          <h3>Visual Profile</h3>
+          <p>An early profile experiment combining particles, audio controls, and a deliberately stylized presentation.</p>
+          <div class="card-footer">
+            <span>HTML · CSS · JS</span>
+            <a href="./GRZY/">Open project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-tags="api utility">
+          <div class="card-topline"><span>05</span><span>API EXPERIMENT</span></div>
+          <h3>Weather Lookup</h3>
+          <p>A browser-side weather query demo using wttr.in and a minimal fetch-based data flow.</p>
+          <div class="card-footer">
+            <span>Fetch API</span>
+            <a href="./API/获取天气/">Open project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-tags="api">
+          <div class="card-topline"><span>06</span><span>API EXPERIMENT</span></div>
+          <h3>Random Cat</h3>
+          <p>A deliberately small image API exercise: one action, one response, one changing cat.</p>
+          <div class="card-footer">
+            <span>Fetch API</span>
+            <a href="./API/随机猫图/M.html">Open project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-tags="archive">
+          <div class="card-topline"><span>07</span><span>LEGACY ARCHIVE</span></div>
+          <h3>XT</h3>
+          <p>An early static-page exercise kept intact as a visible checkpoint in the repository's history.</p>
+          <div class="card-footer">
+            <span>Archive</span>
+            <a href="./XT/xt.html">Open project ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="principle">
+      <p class="eyebrow">REVAMP PRINCIPLE</p>
+      <blockquote>
+        Keep the history. Improve the work.
+      </blockquote>
+      <p>
+        This lab does not pretend the early versions never existed. The point is to make the difference visible.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Ilyra</span>
+    <span>Built as a living archive.</span>
+  </footer>
+
+  <script src="lab.js"></script>
+</body>
+</html>

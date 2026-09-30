@@ -1,28 +1,33 @@
-# Glassbuckle
+# Ilyra Web Lab
 
-A compact archive of front-end experiments and small web applications built with HTML, CSS, and JavaScript.
+A living archive of web experiments, interface studies, and small browser projects by Ilyra.
 
-## Included projects
+The repository started as a collection of early front-end exercises. It is now being rebuilt as a compact web lab: older projects stay visible as part of the history, while selected pieces are gradually redesigned, cleaned up, and brought closer to current standards.
 
-- **TodoList** — a lightweight interactive task list.
-- **RandomQuoteGenerator** — a dynamic quote interface with animated presentation.
-- **API / 获取天气** — a small exercise in fetching and presenting weather data.
-- **API / 随机猫图** — an API-driven random image experiment.
-- **SongList** — an interactive song-list interface.
-- **GRZY** — a visual profile and interaction experiment.
+## Lab index
 
-## Focus
+| Project | Type | Notes |
+| --- | --- | --- |
+| [TodoList](./TodoList/) | Utility | DOM interaction and task-state UI |
+| [Random Quote Generator](./RandomQuoteGenerator/) | UI experiment | Small animated content generator |
+| [Song List](./SongList/) | Interactive page | Song-request interface and clipboard interaction |
+| [Visual Profile](./GRZY/) | Visual experiment | Profile layout, particles, and audio visualization |
+| [Weather Lookup](./API/获取天气/) | API experiment | Client-side weather lookup using wttr.in |
+| [Random Cat](./API/随机猫图/M.html) | API experiment | Lightweight image API demo |
+| [XT Archive](./XT/xt.html) | Legacy experiment | Early layout and image-page exercise |
 
-The repository collects standalone exercises around:
+## Direction
 
-- DOM interaction and event handling
-- asynchronous API requests
-- responsive layout and visual effects
-- small reusable interface behaviors
-- lightweight, framework-free prototypes
+The lab focuses on:
 
-Most folders are self-contained and can be opened independently for review or experimentation.
+- browser-native HTML, CSS, and JavaScript
+- responsive interaction and visual systems
+- small API-driven interfaces
+- lightweight tools and utilities
+- revisiting older work without erasing its development history
 
-## Notes
+The root landing page acts as the current index. Individual projects remain self-contained, so they can be reviewed and modernized independently.
 
-This repository is kept as an archive of early front-end work. Individual projects may use different structures and levels of polish, reflecting separate experiments rather than a single production application.
+## Status
+
+Active revamp. Existing projects are being upgraded selectively rather than rewritten all at once.
